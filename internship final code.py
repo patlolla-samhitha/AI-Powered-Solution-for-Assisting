@@ -13,7 +13,7 @@ from gtts import gTTS
 pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 
 # Initialize Google Generative AI with API Key
-GEMINI_API_KEY = 'AIzaSyDk_hiy26Mqk7QVPc0J2sU_2TOw6mSh5Sw'
+GEMINI_API_KEY = 'Google API Key'
 os.environ["GOOGLE_API_KEY"] = GEMINI_API_KEY
 
 llm = GoogleGenerativeAI(model="gemini-1.5-pro", api_key=GEMINI_API_KEY)
